@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuba Necesita Ayuda - Tu donación puede cambiar vidas</title>
+    <meta name="description" content="Tu donación en USDT puede cambiar vidas en Cuba hoy mismo. Cada contribución se convierte en alimentos, medicinas y esperanza para familias que luchan por sobrevivir.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <img src="assets/heart-hands-icon.png" alt="Ayuda a Cuba" class="nav-logo">
+                <span class="nav-title">Ayuda a Cuba</span>
+            </div>
+            <div class="nav-links">
+                <a href="#como-ayudar" class="nav-link">Cómo ayudar</a>
+                <a href="#direccion-usdt" class="nav-link">Dirección USDT</a>
+                <a href="#situacion" class="nav-link">La situación</a>
+                <a href="#faq" class="nav-link">Preguntas frecuentes</a>
+                <button class="btn-primary nav-donate">Donar ahora</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Cuba necesita ayuda</h1>
+            <p class="hero-subtitle">Tu donación en USDT puede cambiar vidas en Cuba hoy mismo. Cada contribución se convierte en alimentos, medicinas y esperanza para familias que luchan por sobrevivir.</p>
+            <div class="hero-actions">
+                <button class="btn-primary btn-large" onclick="scrollToSection('donation')">Donar ahora</button>
+                <button class="btn-secondary btn-large" onclick="scrollToSection('situacion')">Ver la situación</button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" id="total-donations">1,247</span>
+                    <span class="stat-label">Donaciones recibidas</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" id="families-helped">3,891</span>
+                    <span class="stat-label">Familias ayudadas</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">72h</span>
+                    <span class="stat-label">Tiempo de entrega</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/BEiTCuZ1rqNV.jpg" alt="Situación actual en Cuba" class="hero-img">
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section class="impact" id="situacion">
+        <div class="container">
+            <h2 class="section-title">La realidad en Cuba hoy</h2>
+            <p class="section-subtitle">Miles de cubanos enfrentan dificultades diarias para acceder a alimentos, medicamentos y servicios básicos. Tu ayuda puede marcar la diferencia.</p>
+            
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <img src="images/khdSO9fpuGb5.webp" alt="Colas para alimentos" class="impact-image">
+                    <div class="impact-content">
+                        <h3>Escasez de alimentos</h3>
+                        <p>Colas interminables para acceder a alimentos básicos y medicamentos esenciales para la supervivencia diaria.</p>
+                    </div>
+                </div>
+                <div class="impact-card">
+                    <img src="images/fiIS5sZ47Uay.jpeg" alt="Infraestructura deteriorada" class="impact-image">
+                    <div class="impact-content">
+                        <h3>Infraestructura en crisis</h3>
+                        <p>Viviendas en mal estado sin recursos para reparaciones básicas, afectando la calidad de vida de las familias.</p>
+                    </div>
+                </div>
+                <div class="impact-card">
+                    <img src="images/E1oLoP8lxuAF.jpg" alt="Necesidades médicas" class="impact-image">
+                    <div class="impact-content">
+                        <h3>Crisis sanitaria</h3>
+                        <p>Falta de medicamentos esenciales y suministros médicos básicos para atender las necesidades de salud.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Help Section -->
+    <section class="how-to-help" id="como-ayudar">
+        <div class="container">
+            <h2 class="section-title">¿Cómo puedes ayudar a Cuba?</h2>
+            <p class="section-subtitle">El proceso es simple, rápido y seguro. Sigue estos pasos para enviar ayuda humanitaria a Cuba.</p>
+            
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-icon">
+                        <img src="assets/heart-hands-icon.png" alt="Elegir cantidad">
+                        <span class="step-number">1</span>
+                    </div>
+                    <h3>Elige una cantidad</h3>
+                    <p>Selecciona una cantidad predefinida o ingresa una cantidad personalizada según tu capacidad de donación.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <img src="assets/clock-icon.png" alt="Enviar USDT">
+                        <span class="step-number">2</span>
+                    </div>
+                    <h3>Envía tu USDT</h3>
+                    <p>Envía la cantidad seleccionada a nuestra dirección USDT. Puedes usar cualquier billetera compatible con USDT.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <img src="assets/impact-icon.png" alt="Ayuda llega">
+                        <span class="step-number">3</span>
+                    </div>
+                    <h3>Ayuda llega a Cuba</h3>
+                    <p>Tu donación se convierte en alimentos, medicamentos y suministros esenciales que llegan directamente a quienes más lo necesitan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donation Section -->
+    <section class="donation" id="donation">
+        <div class="container">
+            <h2 class="section-title">Envía ayuda a Cuba ahora</h2>
+            <p class="section-subtitle">Tu contribución en USDT puede marcar la diferencia entre la hambre y la comida, entre la enfermedad y la salud para miles de cubanos.</p>
+            
+            <div class="donation-benefits">
+                <div class="benefit">
+                    <img src="assets/heart-hands-icon.png" alt="Ayuda directa">
+                    <span>Todo el dinero va directamente a ayuda humanitaria</span>
+                </div>
+                <div class="benefit">
+                    <img src="assets/clock-icon.png" alt="Entrega rápida">
+                    <span>Ayuda llega en 72 horas a organizaciones locales</span>
+                </div>
+                <div class="benefit">
+                    <img src="assets/shield-icon.png" alt="Transparencia">
+                    <span>Informe transparente mensual sobre el uso de fondos</span>
+                </div>
+                <div class="benefit">
+                    <img src="assets/impact-icon.png" alt="Sin comisiones">
+                    <span>100% de tu donación llega a Cuba (sin comisiones)</span>
+                </div>
+            </div>
+
+            <div class="donation-form">
+                <h3>Selecciona una cantidad o ingresa una personalizada</h3>
+                <div class="amount-buttons">
+                    <button class="amount-btn" data-amount="10">10 USDT</button>
+                    <button class="amount-btn" data-amount="50">50 USDT</button>
+                    <button class="amount-btn" data-amount="100">100 USDT</button>
+                    <button class="amount-btn" data-amount="250">250 USDT</button>
+                </div>
+                <div class="custom-amount">
+                    <input type="number" id="custom-amount" placeholder="Cantidad personalizada" min="1">
+                    <span>USDT</span>
+                </div>
+                <div class="impact-calculator">
+                    <p id="impact-text">Con <span id="selected-amount">10</span> USDT puedes alimentar a una familia por 3 días</p>
+                </div>
+                <button class="btn-primary btn-large btn-donate" onclick="showDonationModal()">Enviar ayuda a Cuba</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- USDT Address Section -->
+    <section class="usdt-address" id="direccion-usdt">
+        <div class="container">
+            <h2 class="section-title">Nuestra dirección USDT</h2>
+            <p class="section-subtitle">Puedes enviar tus donaciones directamente a nuestra dirección USDT (ERC-20). Asegúrate de seleccionar el estándar ERC-20 al enviar.</p>
+            
+            <div class="address-card">
+                <div class="address-info">
+                    <label>Dirección USDT (ERC-20)</label>
+                    <div class="address-display">
+                        <span id="usdt-address">TTCqsvXNhPN9Dn3pyb5jD5oCwJ7BKntz8M</span>
+                        <button class="copy-btn" onclick="copyAddress()">Copiar</button>
+                    </div>
+                </div>
+                <div class="address-warning">
+                    <img src="assets/shield-icon.png" alt="Advertencia">
+                    <p><strong>Importante:</strong> Asegúrate de verificar la dirección antes de enviar. Nuestro equipo no se hace responsable por envíos a direcciones incorrectas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Testimonios de donantes</h2>
+            <p class="section-subtitle">Escucha lo que dicen quienes ya han enviado ayuda a Cuba a través de nuestra plataforma.</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="testimonial-avatar">M</div>
+                    <div class="testimonial-content">
+                        <h4>María López</h4>
+                        <span class="testimonial-meta">Hace 2 semanas • 100 USDT</span>
+                        <p>"Estoy orgullosa de poder ayudar a mi país en estos momentos difíciles. El proceso fue muy sencillo y transparente."</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-avatar">J</div>
+                    <div class="testimonial-content">
+                        <h4>Juan Martínez</h4>
+                        <span class="testimonial-meta">Hace 1 mes • 50 USDT</span>
+                        <p>"Saber que mi donación llega directamente a quienes más la necesitan en Cuba me da tranquilidad. ¡Gracias por esta iniciativa!"</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-avatar">A</div>
+                    <div class="testimonial-content">
+                        <h4>Ana Rodríguez</h4>
+                        <span class="testimonial-meta">Hace 3 días • 250 USDT</span>
+                        <p>"He visto las imágenes de la crisis en Cuba y quiero ayudar. La opción de donar en USDT es rápida y segura."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">Preguntas frecuentes</h2>
+            <p class="section-subtitle">Encuentra respuestas a las preguntas más comunes sobre cómo ayudar a Cuba a través de donaciones en USDT.</p>
+            
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        ¿Qué es USDT y cómo funciona?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>USDT es una criptomoneda estable vinculada al dólar estadounidense. Su valor se mantiene estable en aproximadamente $1 USD, lo que la hace ideal para donaciones sin fluctuaciones de precio, especialmente importante en situaciones de crisis económica como la de Cuba.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        ¿Cómo puedo realizar una donación en USDT para Cuba?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Selecciona una cantidad o ingresa una cantidad personalizada, haz clic en "Donar ahora" y sigue las instrucciones para enviar USDT a nuestra dirección wallet. Puedes usar billeteras como Trust Wallet, MetaMask o exchanges como Binance. Todas las donaciones se destinarán directamente a ayuda humanitaria en Cuba.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        ¿Es seguro donar en USDT para Cuba?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sí, las transacciones con USDT son seguras, transparentes y se registran en la blockchain. Nuestro sistema utiliza protocolos de seguridad avanzados para proteger tu información y garantizar que tu donación llegue a quienes más la necesitan en Cuba.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        ¿Puedo obtener un recibo fiscal por mi donación a Cuba?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sí, después de completar tu donación, puedes solicitar un recibo fiscal proporcionando tus datos. Nuestro equipo se pondrá en contacto contigo en un plazo máximo de 48 horas. Tu donación puede ser deducible de impuestos según la legislación de tu país.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        ¿Cómo se usa mi donación en Cuba?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Tus donaciones se utilizan para comprar alimentos básicos, medicamentos y suministros esenciales que se envían a organizaciones humanitarias locales en Cuba. Publicamos informes mensuales sobre el uso de los fondos en nuestra página web.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="assets/heart-hands-icon.png" alt="Ayuda a Cuba" class="footer-logo">
+                    <span class="footer-title">Ayuda a Cuba</span>
+                    <p>Llevando esperanza y ayuda humanitaria a Cuba a través de donaciones transparentes y seguras.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces útiles</h4>
+                    <a href="#como-ayudar">Cómo ayudar</a>
+                    <a href="#direccion-usdt">Dirección USDT</a>
+                    <a href="#situacion">La situación</a>
+                    <a href="#faq">Preguntas frecuentes</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <p>Para consultas sobre donaciones o informes de transparencia, contáctanos.</p>
+                    <button class="btn-secondary">Contactar</button>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ayuda a Cuba. Todos los derechos reservados. Organización humanitaria sin fines de lucro.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Donate Button -->
+    <button class="floating-donate" onclick="scrollToSection('donation')">
+        <img src="assets/heart-hands-icon.png" alt="Donar">
+        Donar
+    </button>
+
+    <!-- Donation Modal -->
+    <div class="modal" id="donation-modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeDonationModal()">&times;</span>
+            <h3>Confirmar donación</h3>
+            <p>Estás a punto de donar <span id="modal-amount">10</span> USDT para ayuda humanitaria en Cuba.</p>
+            <div class="modal-address">
+                <label>Envía tu donación a esta dirección USDT (ERC-20):</label>
+                <div class="address-display">
+                    <span>TTCqsvXNhPN9Dn3pyb5jD5oCwJ7BKntz8M</span>
+                    <button class="copy-btn" onclick="copyAddress()">Copiar</button>
+                </div>
+            </div>
+            <div class="modal-actions">
+                <button class="btn-primary" onclick="confirmDonation()">Confirmar donación</button>
+                <button class="btn-secondary" onclick="closeDonationModal()">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
