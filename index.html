@@ -338,3 +338,268 @@
 </body>
 </html>
 
+
+
+    <!-- Historias de Vida Section -->
+    <section class="historias-vida" id="historias-vida">
+        <div class="container">
+            <h2 class="section-title">Historias de Vida en Tiempo Real</h2>
+            <p class="section-subtitle">Conoce el impacto directo de tu donación a través de las voces y rostros de quienes la reciben.</p>
+            
+            <div class="historias-grid">
+                <!-- Ejemplo de historia 1 -->
+                <div class="historia-card">
+                    <div class="video-placeholder">
+                        <img src="images/placeholder-video.jpg" alt="Video de testimonio" class="historia-video-thumb">
+                        <button class="play-button">▶</button>
+                    </div>
+                    <div class="historia-content">
+                        <h3>La esperanza de la familia Rodríguez</h3>
+                        <p>"Gracias a su ayuda, mis hijos tienen comida en la mesa. No hay palabras para agradecer lo que han hecho por nosotros."</p>
+                        <span class="historia-meta">Familia Rodríguez, La Habana</span>
+                    </div>
+                </div>
+                <!-- Ejemplo de historia 2 -->
+                <div class="historia-card">
+                    <div class="video-placeholder">
+                        <img src="images/placeholder-video.jpg" alt="Video de testimonio" class="historia-video-thumb">
+                        <button class="play-button">▶</button>
+                    </div>
+                    <div class="historia-content">
+                        <h3>Medicinas para el abuelo Pedro</h3>
+                        <p>"Mi abuelo necesitaba medicinas urgentes y no las encontrábamos. Su donación salvó su vida. ¡Gracias!"</p>
+                        <span class="historia-meta">Ana García, Santiago de Cuba</span>
+                    </div>
+                </div>
+            </div>
+            <p class="call-to-action">Estas son solo algunas de las vidas que tu donación está transformando. ¡Únete a nosotros y sé parte de estas historias de esperanza!</p>
+        </div>
+    </section>
+
+
+
+
+    <!-- Muro de la Esperanza Section -->
+    <section class="muro-esperanza" id="muro-esperanza">
+        <div class="container">
+            <h2 class="section-title">Muro de la Esperanza</h2>
+            <p class="section-subtitle">Deja un mensaje de apoyo y esperanza para el pueblo cubano. Tu voz se une a la de miles alrededor del mundo.</p>
+            
+            <div class="message-input">
+                <textarea id="message-text" placeholder="Escribe tu mensaje aquí..."></textarea>
+                <input type="text" id="message-name" placeholder="Tu nombre (opcional)">
+                <button class="btn-primary" id="post-message-btn">Publicar Mensaje</button>
+            </div>
+
+            <div class="messages-grid" id="messages-grid">
+                <!-- Los mensajes se cargarán aquí dinámicamente -->
+                <div class="message-card">
+                    <p>"¡Cuba, estamos contigo! No pierdan la fe, la ayuda está en camino."</p>
+                    <span>- Un amigo desde España</span>
+                </div>
+                <div class="message-card">
+                    <p>"Cada pequeña ayuda cuenta. Fuerza, hermanos cubanos."</p>
+                    <span>- María G.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Blockchain Trazabilidad Section -->
+    <section class="blockchain-trazabilidad" id="blockchain-trazabilidad">
+        <div class="container">
+            <h2 class="section-title">Transparencia y Trazabilidad Inquebrantable</h2>
+            <p class="section-subtitle">Aprovechamos la tecnología blockchain para ofrecerte una transparencia total en cada donación.</p>
+            
+            <div class="trazabilidad-content">
+                <div class="trazabilidad-info">
+                    <h3>Explorador de Transacciones Integrado</h3>
+                    <p>Introduce el hash de tu transacción USDT y sigue en tiempo real cómo tu donación se mueve a través de la cadena de suministro hasta el beneficiario final. Cada paso es registrado y verificable.</p>
+                    <div class="transaction-search">
+                        <input type="text" id="transaction-hash" placeholder="Introduce el Hash de tu Transacción USDT">
+                        <button class="btn-primary" id="search-transaction-btn">Rastrear Donación</button>
+                    </div>
+                    <div id="transaction-results" class="transaction-results">
+                        <!-- Los resultados de la transacción se mostrarán aquí -->
+                    </div>
+                </div>
+                <div class="trazabilidad-image">
+                    <img src="images/blockchain-concept.png" alt="Blockchain Concept">
+                </div>
+            </div>
+
+            <div class="trazabilidad-features">
+                <div class="feature-card">
+                    <img src="assets/smart-contract-icon.png" alt="Smart Contracts">
+                    <h4>Contratos Inteligentes para Desembolsos</h4>
+                    <p>Automatizamos y hacemos transparentes los desembolsos de fondos a través de contratos inteligentes, garantizando que cada céntimo llegue a su destino.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="assets/audit-icon.png" alt="Auditorías en Vivo">
+                    <h4>Auditorías en Vivo</h4>
+                    <p>Integración de feeds de datos de auditorías externas en tiempo real, para que puedas verificar la legitimidad y el impacto de la ayuda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Donor Dashboard Section -->
+    <section class="donor-dashboard" id="donor-dashboard">
+        <div class="container">
+            <h2 class="section-title">Tu Impacto, en Detalle</h2>
+            <p class="section-subtitle">Accede a tu panel personalizado para ver el impacto de tus donaciones y la trazabilidad de cada contribución.</p>
+            
+            <div class="dashboard-content">
+                <div class="dashboard-summary">
+                    <h3>Resumen de tus Contribuciones</h3>
+                    <div class="summary-item">
+                        <span>Donaciones Totales:</span>
+                        <span class="summary-value">500 USDT</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>Familias Ayudadas:</span>
+                        <span class="summary-value">15</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>Comidas Proporcionadas:</span>
+                        <span class="summary-value">450</span>
+                    </div>
+                    <button class="btn-primary">Ver Historial Completo</button>
+                </div>
+                <div class="dashboard-chart">
+                    <!-- Aquí se podría integrar un gráfico de impacto visual -->
+                    <img src="images/impact-chart-placeholder.png" alt="Gráfico de Impacto">
+                </div>
+            </div>
+
+            <div class="dashboard-features">
+                <div class="feature-card">
+                    <img src="assets/map-icon.png" alt="Mapas de Distribución">
+                    <h4>Mapas de Distribución Interactivos</h4>
+                    <p>Explora dónde y cómo se está entregando la ayuda en Cuba, con fotos y videos de las entregas en cada localidad.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="assets/certificate-icon.png" alt="Certificados Digitales">
+                    <h4>Certificados de Impacto Digitales</h4>
+                    <p>Recibe un certificado digital que reconoce tu contribución y el impacto generado, ideal para compartir.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Gamificación y Reconocimiento Section -->
+    <section class="gamificacion-reconocimiento" id="gamificacion-reconocimiento">
+        <div class="container">
+            <h2 class="section-title">Gamificación y Reconocimiento del Donante</h2>
+            <p class="section-subtitle">Celebramos tu generosidad. Descubre los niveles de donante, insignias digitales y desafíos que te esperan.</p>
+            
+            <div class="gamificacion-grid">
+                <div class="gamificacion-card">
+                    <img src="assets/badge-icon.png" alt="Niveles de Donante">
+                    <h3>Niveles de Donante y Badges Digitales</h3>
+                    <p>A medida que tu contribución crece, desbloqueas nuevos niveles y recibes insignias digitales exclusivas para compartir.</p>
+                </div>
+                <div class="gamificacion-card">
+                    <img src="assets/challenge-icon.png" alt="Desafíos de Donación">
+                    <h3>Desafíos de Donación y Metas Colectivas</h3>
+                    <p>Participa en desafíos temáticos y ayuda a alcanzar metas colectivas para desbloquear contenido exclusivo y ver el impacto en tiempo real.</p>
+                </div>
+                <div class="gamificacion-card">
+                    <img src="assets/fame-wall-icon.png" alt="Muro de la Fama">
+                    <h3>Muro de la Fama de Donantes</h3>
+                    <p>Tu nombre puede aparecer en nuestro Muro de la Fama, reconociendo tu generosidad y liderazgo en la causa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Asistente Virtual Section -->
+    <section class="asistente-virtual" id="asistente-virtual">
+        <div class="container">
+            <h2 class="section-title">Asistente Virtual de Donación</h2>
+            <p class="section-subtitle">Nuestro asistente impulsado por IA te guía para maximizar el impacto de tu donación y resuelve todas tus dudas.</p>
+            
+            <div class="chatbot-container">
+                <div class="chatbot-messages" id="chatbot-messages">
+                    <div class="message bot-message">
+                        <p>¡Hola! Soy tu asistente virtual. ¿En qué puedo ayudarte hoy con tu donación a Cuba?</p>
+                    </div>
+                </div>
+                <div class="chatbot-input">
+                    <input type="text" id="user-input" placeholder="Escribe tu pregunta o mensaje...">
+                    <button class="btn-primary" id="send-message-btn">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Impacto Predictivo Section -->
+    <section class="impacto-predictivo" id="impacto-predictivo">
+        <div class="container">
+            <h2 class="section-title">Visualización de Impacto Predictivo</h2>
+            <p class="section-subtitle">Descubre el potencial de tu donación antes de realizarla. Simula el impacto que puedes generar.</p>
+            
+            <div class="simulador-impacto">
+                <h3>Simulador de Impacto</h3>
+                <div class="slider-container">
+                    <input type="range" min="10" max="1000" value="50" class="slider" id="impact-slider">
+                    <p>Donación: <span id="slider-value">50</span> USDT</p>
+                </div>
+                <div class="impact-results">
+                    <p>Con <span id="simulated-amount">50</span> USDT, podrías proporcionar <span id="simulated-impact">alimentos para 1 familia por 5 días</span>.</p>
+                </div>
+            </div>
+
+            <div class="mapa-necesidades">
+                <h3>Mapas de Necesidades Dinámicos</h3>
+                <p>Explora las áreas de Cuba con mayores necesidades y cómo tu donación puede ayudar a cubrir esas brechas.</p>
+                <img src="images/cuba-needs-map-placeholder.png" alt="Mapa de Necesidades de Cuba">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Colaboraciones Estratégicas Section -->
+    <section class="colaboraciones-estrategicas" id="colaboraciones-estrategicas">
+        <div class="container">
+            <h2 class="section-title">Colaboraciones Estratégicas y Embajadores de Marca</h2>
+            <p class="section-subtitle">Expandimos nuestro alcance y credibilidad a través de alianzas clave y el apoyo de figuras influyentes.</p>
+            
+            <div class="colaboraciones-grid">
+                <div class="colaboracion-card">
+                    <img src="assets/ambassador-icon.png" alt="Embajadores de Impacto">
+                    <h3>Programa de Embajadores de Impacto</h3>
+                    <p>Colaboramos con figuras públicas y líderes comunitarios que amplifican nuestro mensaje y movilizan a sus seguidores.</p>
+                </div>
+                <div class="colaboracion-card">
+                    <img src="assets/blockchain-community-icon.png" alt="Alianzas Blockchain">
+                    <h3>Alianzas con Proyectos Blockchain y Cripto-Comunidades</h3>
+                    <p>Nos unimos a la comunidad cripto para promover la donación en USDT y llegar a un público global.</p>
+                </div>
+                <div class="colaboracion-card">
+                    <img src="assets/streaming-gaming-icon.png" alt="Streaming y Gaming">
+                    <h3>Integración con Plataformas de Streaming y Gaming</h3>
+                    <p>Exploramos nuevas vías de recaudación de fondos a través de eventos en vivo y desafíos en el mundo del gaming.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
