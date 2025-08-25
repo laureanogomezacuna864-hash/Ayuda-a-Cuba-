@@ -870,3 +870,689 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
+/* Historias de Vida Section */
+.historias-vida {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.historias-vida .section-subtitle {
+    margin-bottom: 40px;
+}
+
+.historias-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.historia-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.historia-card:hover {
+    transform: translateY(-10px);
+}
+
+.historia-card .video-placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.historia-card .video-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+.historia-card .play-button {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    color: #e74c3c;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.historia-card .play-button:hover {
+    background-color: #fff;
+}
+
+.historia-card .historia-content {
+    padding: 25px;
+}
+
+.historia-card h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.historia-card p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.historia-card .historia-meta {
+    font-size: 14px;
+    color: #999;
+    display: block;
+}
+
+.historias-vida .call-to-action {
+    margin-top: 50px;
+    font-size: 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+
+
+
+/* Muro de la Esperanza Section */
+.muro-esperanza {
+    padding: 80px 0;
+    background-color: #e8f0fe;
+    text-align: center;
+}
+
+.muro-esperanza .section-subtitle {
+    margin-bottom: 40px;
+}
+
+.message-input {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.message-input textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    min-height: 100px;
+    resize: vertical;
+}
+
+.message-input input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.message-input .btn-primary {
+    width: auto;
+    align-self: flex-end;
+}
+
+.messages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.message-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    padding: 25px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 150px;
+}
+
+.message-card p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    flex-grow: 1;
+}
+
+.message-card span {
+    font-size: 14px;
+    color: #666;
+    font-style: italic;
+    text-align: right;
+    display: block;
+}
+
+
+
+
+/* Blockchain Trazabilidad Section */
+.blockchain-trazabilidad {
+    padding: 80px 0;
+    background-color: #f0f9ff;
+    text-align: center;
+}
+
+.blockchain-trazabilidad .section-subtitle {
+    margin-bottom: 40px;
+}
+
+.trazabilidad-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto 60px auto;
+    text-align: left;
+}
+
+.trazabilidad-content .trazabilidad-info {
+    flex: 1;
+}
+
+.trazabilidad-content .trazabilidad-info h3 {
+    font-size: 28px;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+
+.trazabilidad-content .trazabilidad-info p {
+    font-size: 18px;
+    color: #4b5563;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.trazabilidad-content .trazabilidad-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trazabilidad-content .trazabilidad-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-search {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.transaction-search input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.transaction-search .btn-primary {
+    padding: 12px 25px;
+    font-size: 16px;
+}
+
+.transaction-results {
+    background-color: #e0f2f7;
+    border: 1px solid #b2ebf2;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 16px;
+    color: #00796b;
+    text-align: left;
+    display: none; /* Oculto por defecto */
+}
+
+.trazabilidad-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+    text-align: center;
+}
+
+.feature-card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.feature-card h4 {
+    font-size: 22px;
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .trazabilidad-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .trazabilidad-content .trazabilidad-info {
+        order: 2;
+    }
+    .trazabilidad-content .trazabilidad-image {
+        order: 1;
+    }
+}
+
+
+
+
+/* Donor Dashboard Section */
+.donor-dashboard {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.donor-dashboard .section-subtitle {
+    margin-bottom: 40px;
+}
+
+.dashboard-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto 60px auto;
+    text-align: left;
+}
+
+.dashboard-summary {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.dashboard-summary h3 {
+    font-size: 28px;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 18px;
+    color: #4b5563;
+}
+
+.summary-item:last-child {
+    border-bottom: none;
+}
+
+.summary-value {
+    font-weight: 600;
+    color: #10b981;
+}
+
+.dashboard-summary .btn-primary {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.dashboard-chart {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-chart img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .dashboard-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+
+
+/* Gamificación y Reconocimiento Section */
+.gamificacion-reconocimiento {
+    padding: 80px 0;
+    background-color: #e8f0fe;
+    text-align: center;
+}
+
+.gamificacion-reconocimiento .section-subtitle {
+    margin-bottom: 40px;
+}
+
+.gamificacion-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gamificacion-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+.gamificacion-card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.gamificacion-card h3 {
+    font-size: 22px;
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+.gamificacion-card p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+
+
+
+/* Asistente Virtual Section */
+.asistente-virtual {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.asistente-virtual .section-subtitle {
+    margin-bottom: 40px;
+}
+
+.chatbot-container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    overflow: hidden;
+}
+
+.chatbot-messages {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.message {
+    max-width: 80%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    line-height: 1.5;
+}
+
+.bot-message {
+    background-color: #e0f7fa;
+    color: #00796b;
+    align-self: flex-start;
+    border-bottom-left-radius: 5px;
+}
+
+.user-message {
+    background-color: #e8f0fe;
+    color: #1e3a8a;
+    align-self: flex-end;
+    border-bottom-right-radius: 5px;
+}
+
+.chatbot-input {
+    display: flex;
+    padding: 15px;
+    border-top: 1px solid #eee;
+    gap: 10px;
+}
+
+.chatbot-input input {
+    flex-grow: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.chatbot-input .btn-primary {
+    padding: 12px 25px;
+    border-radius: 25px;
+}
+
+
+
+
+/* Impacto Predictivo Section */
+.impacto-predictivo {
+    padding: 80px 0;
+    background-color: #e0f7fa;
+    text-align: center;
+}
+
+.impacto-predictivo .section-subtitle {
+    margin-bottom: 40px;
+}
+
+.simulador-impacto {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+.simulador-impacto h3 {
+    font-size: 24px;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+
+.slider-container {
+    width: 80%;
+    margin: 0 auto 20px auto;
+}
+
+.slider {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 10px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 5px;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #1e3a8a;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #1e3a8a;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.simulador-impacto p {
+    font-size: 18px;
+    color: #4b5563;
+    margin-top: 15px;
+}
+
+.impact-results {
+    background-color: #e8f0fe;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.impact-results p {
+    font-weight: 600;
+    color: #1e3a8a;
+}
+
+.mapa-necesidades {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mapa-necesidades h3 {
+    font-size: 24px;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+
+.mapa-necesidades img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+
+
+
+/* Colaboraciones Estratégicas Section */
+.colaboraciones-estrategicas {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.colaboraciones-estrategicas .section-subtitle {
+    margin-bottom: 40px;
+}
+
+.colaboraciones-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.colaboracion-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+.colaboracion-card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.colaboracion-card h3 {
+    font-size: 22px;
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+.colaboracion-card p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+
