@@ -598,8 +598,29 @@
                     <h3>Integración con Plataformas de Streaming y Gaming</h3>
                     <p>Exploramos nuevas vías de recaudación de fondos a través de eventos en vivo y desafíos en el mundo del gaming.</p>
                 </div>
+
+    <!-- Donation Modal -->
+    <div id="donation-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeDonationModal()">&times;</span>
+            <h3>Confirma tu donación</h3>
+            <p>Estás a punto de donar <span id="modal-amount"></span> USDT.</p>
+            <div class="modal-address">
+                <label>Dirección USDT (ERC-20)</label>
+                <div class="address-display">
+                    <span>TTCqsvXNhPN9Dn3pyb5jD5oCwJ7BKntz8M</span>
+                    <button class="copy-btn" onclick="copyAddress()">Copiar</button>
+                </div>
+            </div>
+            <p>Asegúrate de enviar la cantidad correcta a la dirección indicada. Una vez confirmada, tu donación se destinará a ayuda humanitaria en Cuba.</p>
+            <div class="modal-actions">
+                <button class="btn-primary" onclick="confirmDonation()">Confirmar Donación</button>
+                <button class="btn-secondary" onclick="closeDonationModal()">Cancelar</button>
             </div>
         </div>
-    </section>
+    </div>
 
-
+    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
